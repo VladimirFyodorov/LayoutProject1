@@ -1,0 +1,14 @@
+/** CSS STYLE **/
+@import url('./kit/position.css');
+@import url('./kit/box-model.css');
+@import url('./kit/visual.css');
+@import url('./kit/animation.css');
+@import url('./kit/else.css');
+
+@import url('./footer.css');
+
+.hello {
+  display: block;
+
+  color: #fff;
+}
