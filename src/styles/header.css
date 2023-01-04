@@ -1,3 +1,8 @@
+header {
+  position: relative;
+  overflow: hidden;
+}
+
 header::before {
   content: "";
   display: block;
@@ -8,13 +13,13 @@ header::before {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../images/background.png');
-  
+
   opacity: 10%;
 }
 
 .header-img {
-  position: relative;
+  position: absolute;
   height: 525px;
   top: 55px;
-  right: -270px;
+  right: -170px;
 }
