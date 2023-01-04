@@ -9,10 +9,10 @@ header::before {
 
   display: block;
 
-  content: "";
-
   width: 100vw;
   height: 914px;
+
+  content: "";
 
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
