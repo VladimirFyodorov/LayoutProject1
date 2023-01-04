@@ -16,9 +16,9 @@ header::before {
   background-repeat: no-repeat;
   background-size: cover;
 
-  content: "";
-
   opacity: 0.1;
+
+  content: "";
 }
 
 .header-img {
