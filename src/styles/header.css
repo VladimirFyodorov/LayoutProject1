@@ -1,25 +1,31 @@
 header {
   position: relative;
+
   overflow: hidden;
 }
 
 header::before {
-  content: "";
-  display: block;
   position: absolute;
-  height: 914px;
-  width: 100vw;
 
+  display: block;
+
+  content: "";
+
+  width: 100vw;
+  height: 914px;
+
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../images/background.png');
 
-  opacity: 10%;
+  opacity: 0.1;
 }
 
 .header-img {
   position: absolute;
-  height: 525px;
+
   top: 55px;
   right: -170px;
+
+  height: 525px;
 }
