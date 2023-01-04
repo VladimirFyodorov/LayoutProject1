@@ -1,3 +1,69 @@
+.white {
+  background-color: #FFFFFF;
+}
+
+.light {
+  background-color: #F5F4F0;
+}
+
+.primary {
+  background-color: #FE8A02;
+}
+
+.primary-dark {
+  background-color: #42413C;
+}
+
+.dark {
+  background-color: #2A2626;
+}
+
+.dark-50 {
+  background-color: #908D8B;
+}
+
+.brown {
+  background-color: #B09A81;
+}
+
+.white-50 {
+  background-color: #D7CCC0;
+}
+
 .blue {
-    color: rgba(16, 133, 197, 1);
+  color: rgba(16, 133, 197, 1);
+}
+
+/* -------- Background colors */
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.bg-light {
+  background-color: #F5F4F0;
+}
+
+.bg-primary {
+  background-color: #FE8A02;
+}
+
+.bg-primary-dark {
+  background-color: #42413C;
+}
+
+.bg-dark {
+  background-color: #2A2626;
+}
+
+.bg-dark-50 {
+  background-color: #908D8B;
+}
+
+.bg-brown {
+  background-color: #B09A81;
+}
+
+.bg-white-50 {
+  background-color: #D7CCC0;
 }
