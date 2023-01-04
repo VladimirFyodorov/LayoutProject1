@@ -2,6 +2,10 @@
   background-color: #FFFFFF;
 }
 
+.white-50 {
+  background-color: #D7CCC0;
+}
+
 .light {
   background-color: #F5F4F0;
 }
@@ -26,18 +30,18 @@
   background-color: #B09A81;
 }
 
-.white-50 {
-  background-color: #D7CCC0;
-}
-
 .blue {
-  color: rgba(16, 133, 197, 1);
+  color: #1085c5;
 }
 
 /* -------- Background colors */
 
 .bg-white {
   background-color: #FFFFFF;
+}
+
+.bg-white-50 {
+  background-color: #D7CCC0;
 }
 
 .bg-light {
@@ -62,8 +66,4 @@
 
 .bg-brown {
   background-color: #B09A81;
-}
-
-.bg-white-50 {
-  background-color: #D7CCC0;
 }
