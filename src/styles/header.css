@@ -1,24 +1,20 @@
 header {
   position: relative;
-
   overflow: hidden;
 }
 
 header::before {
   position: absolute;
-
   display: block;
 
   width: 100vw;
   height: 914px;
   object-fit: cover;
-
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 
   opacity: 0.1;
-
   content: "";
 }
 
@@ -31,20 +27,15 @@ header p {
 
   top: 55px;
   right: -105px;
-
   height: 525px;
 }
 
 .header-btn {
   margin-top: 1.5rem;
   padding: 12px 24px;
-
-  font-family: OpenSans;
-  font-weight: bold;
-
-  background-color: var(--color-primary);
-
   color: var(--color-white);
 
+  font-weight: bold;
+  background-color: var(--color-primary);
   border: 0;
 }

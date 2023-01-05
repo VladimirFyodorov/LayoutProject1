@@ -5,26 +5,26 @@ footer {
 }
 
 .footer-form-box {
-  align-self: stretch;
+  display: flex;
 
-  padding-left: 55px;
-  padding-right: 55px;
+  align-items: center;
+  align-self: stretch;
+  justify-content: space-between;
 
   height: 190px;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-right: 55px;
+  padding-left: 55px;
 }
 
 .footer-input {
   box-sizing: border-box;
-  height: 50px;
-  width: 415px;
 
-  border: 0;
+  width: 415px;
+  height: 50px;
 
   padding: 15px;
+  border: 0;
 }
 
 .footer-input-label {
@@ -32,9 +32,8 @@ footer {
 }
 
 .footer-btn {
-  height: 50px;
   width: 70px;
-
+  height: 50px;
   border: 0;
 }
 
