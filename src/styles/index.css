@@ -1,7 +1,8 @@
-@import url("./kit/typography.css");
+@import url("./general.css");
 @import url("./kit/variables.css");
 @import url("./kit/position.css");
 @import url("./kit/box-model.css");
+@import url("./kit/typography.css");
 @import url("./kit/visual.css");
 @import url("./kit/animation.css");
 @import url("./kit/else.css");

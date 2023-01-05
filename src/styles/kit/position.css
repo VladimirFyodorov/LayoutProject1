@@ -1,17 +1,3 @@
-body {
-  margin: 0;
-}
-
-h1,
-h2,
-h3 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
 .padding {
   padding: 100px 165px 100px;
 }
@@ -21,8 +7,12 @@ p {
   column-gap: 30px;
 }
 
-.margin-bottom-185 {
-  margin-bottom: 185px;
+.avoid-break {
+  break-inside: avoid;
+}
+
+.margin-bottom-200 {
+  margin-bottom: 200px;
 }
 
 .z-index-1 {
