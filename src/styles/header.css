@@ -11,6 +11,7 @@ header::before {
 
   width: 100vw;
   height: 914px;
+  object-fit: cover;
 
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
@@ -21,11 +22,29 @@ header::before {
   content: "";
 }
 
+header p {
+  margin-bottom: 0.8rem;
+}
+
 .header-img {
   position: absolute;
 
   top: 55px;
-  right: -170px;
+  right: -105px;
 
   height: 525px;
+}
+
+.header-btn {
+  margin-top: 1.5rem;
+  padding: 12px 24px;
+
+  font-family: OpenSans;
+  font-weight: bold;
+
+  background-color: var(--color-primary);
+
+  color: var(--color-white);
+
+  border: 0;
 }

@@ -15,6 +15,18 @@
   margin-bottom: 200px;
 }
 
+.margin-bottom-75 {
+  margin-bottom: 75px;
+}
+
+.m-b-08rem {
+  margin-bottom: 0.8rem;
+}
+
+.m-b-05rem {
+  margin-bottom: 0.5rem;
+}
+
 .z-index-1 {
   position: relative;
   z-index: 1;

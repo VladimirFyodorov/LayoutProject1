@@ -9,22 +9,37 @@
   <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-  <header class="padding bg-light">
-    <h1 class="primary z-index-1">Когнитивные <br>искажения</h1>
-    <h1 class="dark margin-bottom-200 z-index-1">в программировании</h1>
-    <img class="header-img" src="./images/main.png" alt="background image of a cute little fellow with a laptop"/>
-    <article class="two-column">
-      <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
-      <div class="avoid-break">
-        <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
-        <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-        <button class="btn-header" href="#">подробнее</button>
-      </div>
-    </article>
+  <header class="bg-light">
+    <section class="padding">
+      <h1 class="primary z-index-1 margin-bottom-200">
+        <span class="primary">Когнитивные<br>искажения<br></span>
+        <span class="dark">в программировании</span>
+      </h1>
+      <img class="header-img" src="./images/main.png" alt="background image of a cute little fellow with a laptop"/>
+      <article class="two-column">
+        <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
+        <div class="avoid-break">
+          <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
+          <p class="m-b-08rem">Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
+          <button class="header-btn p16" href="#">ПОДРОБНЕЕ</button>
+        </div>
+      </article>
+    </section>
   </header>
   <main>
   </main>
-  <footer>
+  <footer class="padding">
+    <article class="footer-form-box bg-primary-dark two-column margin-bottom-75">
+      <h3>Хотите узнать больше?<br>Подпишитесь на обновления</h3>
+      <form>
+        <p class="m-b-05rem">Электронная почта</p>
+        <div class="d-f f-start">
+          <input class="footer-input" placeholder="Ваша электронная почта"/>
+          <button class="footer-btn bg-primary"></button>
+        </div>
+        <p class="p12">Подписываясь, вы принимаете <a class="white" href="#">правила сервиса</a></p>
+      </form>
+    </article>
     <p>© 2020 Константин Константинопольский</p>
     <p>По материалам статьи <a class="blue" href="#">Yash Ranadive Cognitive Biases in Programming</a></p>
     <p><a class="blue" href="#">Курсы программирования Hexlet</a></p>

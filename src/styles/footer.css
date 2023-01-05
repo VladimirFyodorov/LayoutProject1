@@ -4,16 +4,40 @@ footer {
   align-items: center;
 }
 
-.btn-header {
-  margin-top: 40px;
-  padding: 12px 24px;
+.footer-form-box {
+  align-self: stretch;
 
-  font-family: OpenSans;
-  font-weight: bold;
+  padding-left: 55px;
+  padding-right: 55px;
 
-  background-color: var(--color-primary);
+  height: 190px;
 
-  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-input {
+  box-sizing: border-box;
+  height: 50px;
+  width: 415px;
 
   border: 0;
+
+  padding: 15px;
+}
+
+.footer-input-label {
+  margin-bottom: 0.5rem;
+}
+
+.footer-btn {
+  height: 50px;
+  width: 70px;
+
+  border: 0;
+}
+
+.footer-btn::before {
+  content: url("../images/send.svg");
 }
