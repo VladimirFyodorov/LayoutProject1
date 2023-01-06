@@ -8,7 +8,7 @@ header::before {
   display: block;
 
   width: 100vw;
-  height: 914px;
+  height: 916px;
   object-fit: cover;
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ header p {
 }
 
 .header-btn {
-  margin-top: 1.5rem;
+  margin-top: 1.65rem;
   padding: 12px 24px;
   color: var(--color-white);
 
